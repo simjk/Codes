@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">REPA</string>
+    <string name="sell">Sell</string>
+    <string name="browse">Browse</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="calculator">Calculator</string>
+    <string name="me">Me</string>
+    <string name="profile">Profile</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forget_password">Forget Password?</string>
+
+    <string-array name="salutation">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Ms</item>
+        <item>Mdm</item>
+    </string-array>
+
+    <string-array name="housingunit_array">
+        <item>Choose a housing unit...</item>
+        <item>HDB</item>
+        <item>Condominium</item>
+    </string-array>
+
+    <string-array name="town_array">
+        <item>Choose a town area...</item>
+        <item>ANG MO KIO</item>
+        <item>BEDOK</item>
+        <item>BISHAN</item>
+        <item>BUKIT BATOK</item>
+        <item>BUKIT MERAH</item>
+        <item>BUKIT PANJANG</item>
+        <item>BUKIT TIMAH</item>
+        <item>CENTRAL AREA</item>
+        <item>CHOA CHU KANG</item>
+        <item>CLEMENTI</item>
+        <item>GEYLANG</item>
+        <item>HOUGANG</item>
+        <item>JURONG EAST</item>
+        <item>JURONG WEST</item>
+        <item>KALLANG/WHAMPOA</item>
+        <item>MARINE PARADE</item>
+        <item>PASIR RIS</item>
+        <item>QUEENSTOWN</item>
+        <item>SEMBAWANG</item>
+        <item>SERANGOON</item>
+        <item>TAMPINES</item>
+        <item>TOA PAYOH</item>
+        <item>WOODLANDS</item>
+        <item>YISHUN</item>
+    </string-array>
+
+    <string-array name="condo_array">
+        <item>Choose a town area...</item>
+        <item>ANG MO KIO</item>
+        <item>BEDOK</item>
+        <item>BISHAN</item>
+        <item>BUKIT BATOK</item>
+        <item>BUKIT MERAH</item>
+        <item>BUKIT TIMAH</item>
+        <item>BUKIT PANJANG</item>
+        <item>CHOA CHU KANG</item>
+        <item>CLEMENTI</item>
+        <item>DOWNTOWN CORE</item>
+        <item>GEYLANG</item>
+        <item>HOUGANG</item>
+        <item>JURONG EAST</item>
+        <item>JURONG WEST</item>
+        <item>KALLANG</item>
+        <item>MANDAI</item>
+        <item>MARINE PARADE</item>
+        <item>MUSEUM</item>
+        <item>NEWTON</item>
+        <item>NOVENA</item>
+        <item>ORCHARD</item>
+        <item>OUTRAM</item>
+        <item>PASIR RIS</item>
+        <item>PUNGGOL</item>
+        <item>QUEENSTOWN</item>
+        <item>RIVER VALLEY</item>
+        <item>ROCHOR</item>
+        <item>SERANGOON</item>
+        <item>SEMBAWANG</item>
+        <item>SENGKANG</item>
+        <item>SINGAPORE RIVER</item>
+        <item>SOUTHERN ISLANDS</item>
+        <item>TANGLIN</item>
+        <item>TAMPINES</item>
+        <item>TOA PAYOH</item>
+        <item>WOODLANDS</item>
+        <item>YISHUN</item>
+    </string-array>
+
+    <string-array name="propertytype_array">
+        <item>Choose a property type...</item>
+        <item>1 ROOM</item>
+        <item>2 ROOM</item>
+        <item>3 ROOM</item>
+        <item>4 ROOM</item>
+        <item>5 ROOM</item>
+        <item>EXECUTIVE</item>
+    </string-array>
+
+    <string-array name="floorarea_array">
+        <item>Choose a floor area...</item>
+        <item>30-50</item>
+        <item>51-70</item>
+        <item>71-90</item>
+        <item>91-110</item>
+        <item>111-130</item>
+        <item>131-150</item>
+        <item>151-170</item>
+        <item>171-190</item>
+        <item>191-210 </item>
+    </string-array>
+
+    <string-array name="condofloorarea_array">
+        <item>Choose a floor area...</item>
+        <item>51-70</item>
+        <item>71-90</item>
+        <item>91-110</item>
+        <item>111-130</item>
+        <item>131-150</item>
+        <item>151-170</item>
+        <item>171-190</item>
+        <item>191-210 </item>
+        <item>211-230</item>
+        <item>231-250</item>
+        <item>251-270</item>
+        <item>271-290</item>
+        <item>291-310</item>
+        <item>311-330</item>
+    </string-array>
+    
+    <string-array name="sellingprice_array">
+        <item>Choose a price range...</item>
+        <item>100000-300000</item>
+        <item>300000-500000</item>
+        <item>500000-700000</item>
+        <item>700000-900000</item>
+        <item>900000-1100000</item>
+        <item>1100000-1300000</item>
+    </string-array>
+
+    <string-array name="no_of">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="housing_Unit">Housing Unit</string>
+    <string name="address">Town Area</string>
+    <string name="propertyType">Property Type</string>
+    <string name="price">Price</string>
+    <string name="user">Seller</string>
+    <string name="tenure">Tenure</string>
+    <string name="floorarea">Floor Area</string>
+    <string name="no_of_bed">No. of Bed</string>
+    <string name="no_of_bath">No. of Bath</string>
+    <string name="description">Description</string>
+    <string name="floor_area_sqft">Floor Area (sqft):</string>
+    <string name="address1">Address:</string>
+    <string name="no_of_bedrooms">No. of Bedrooms:</string>
+    <string name="no_of_bathrooms">No. of Bathrooms:</string>
+    <string name="selling_price_s">Selling Price (S$):</string>
+    <string name="description1">Description:</string>
+    <string name="property_type">Property Type:</string>
+    <string name="tenure1"> Tenure:</string>
+    <string name="housing_unit">Housing Unit:</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="town_area">Town Area:</string>
+    <string name="password1">Password</string>
+    <string name="email1">Email</string>
+    <string name="phone_no1">Phone no.</string>
+    <string name="name1">Name</string>
+    <string name="price_s">Price:</string>
+    <string name="filter_dash_result">Filter Dashboard Results</string>
+    <string name="contact_no">Contact No</string>
+    <string name="about_me">About Me</string>
+    <string name="_99887766">: +65 99887766</string>
+    <string name="adam_gmail_com">: adam@gmail.com</string>
+    <string name="change_password">Change Password</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".boundary.NoResultFound">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/noResultImg"
+        android:layout_width="138dp"
+        android:layout_height="148dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="217dp"
+        app:layout_constraintBottom_toTopOf="@+id/noResultFoundBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/no_result" />
+
+    <TextView
+        android:id="@+id/noResultFoundBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginStart="129dp"
+        android:text="No results found"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noResultImg" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:text="Adjust your search and you will find a place that suits you. "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/refineSearchBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noResultFoundBtn" />
+
+    <ImageView
+        android:id="@+id/refineSearchBtn"
+        android:layout_width="266dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="133dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/refine_search" />
+
+    <EditText
+        android:id="@+id/search_box"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="74dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:hint="Search town area, MRT or street"
+        android:padding="10dp"
+        android:inputType="textLongMessage"
+        android:background="@drawable/textview_border"
+        app:layout_constraintBottom_toTopOf="@+id/noResultImg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/searchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="137dp"
+        app:layout_constraintBottom_toTopOf="@+id/search_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/search_box"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/search_btn" />
+
+</android.support.constraint.ConstraintLayout>

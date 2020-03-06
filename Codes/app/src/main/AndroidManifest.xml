@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.j_enn.repa">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".control.MainActivity" />
+        <activity android:name=".boundary.HomeLauncher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".boundary.RegisterActivity" />
+        <activity android:name=".boundary.LoginActivity" />
+        <activity android:name=".boundary.ForgetPasswordActivity" />
+        <activity android:name=".boundary.AdvancedSearchActivity"/>
+        <activity android:name=".boundary.NoResultFound"/>
+        <activity android:name=".boundary.ResultActivity" />
+        <activity android:name=".boundary.ChatActivity" />
+        <activity android:name=".boundary.ViewProperty">
+        </activity>
+
+    </application>
+
+</manifest>
